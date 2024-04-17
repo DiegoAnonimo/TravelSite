@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+    height: 10vh;
+    width: 80vw;
+    background-color:aqua;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    list-style-type: none;
+}
+
+.home {
+    height: 90vh;
+    width: 80vw;
+    background-color: blue;
+    margin: auto;
+}
